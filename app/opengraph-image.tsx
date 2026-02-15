@@ -15,47 +15,87 @@ export default async function Image() {
     (
       <div
         style={{
-          background: 'linear-gradient(135deg, #667eea 0%, #764ba2 100%)',
+          backgroundColor: 'white',
           width: '100%',
           height: '100%',
           display: 'flex',
-          flexDirection: 'column',
+          flexDirection: 'row',
           alignItems: 'center',
-          justifyContent: 'center',
-          color: 'white',
+          padding: '60px',
+          color: 'black',
           fontFamily: 'system-ui, sans-serif',
         }}
       >
         <div
           style={{
-            fontSize: 60,
+            width: '400px',
+            height: '400px',
+            borderRadius: '50%',
+            backgroundColor: '#f3f4f6',
+            marginRight: '60px',
+            border: '2px solid #e5e7eb',
+            boxShadow: '0 10px 30px rgba(0, 0, 0, 0.1)',
+            display: 'flex',
+            alignItems: 'center',
+            justifyContent: 'center',
+            fontSize: '24px',
             fontWeight: 'bold',
-            textAlign: 'center',
-            marginBottom: 20,
+            color: '#374151',
           }}
         >
-          Gleb Shabanov
+          Photo
         </div>
         <div
           style={{
-            fontSize: 32,
-            textAlign: 'center',
-            maxWidth: '80%',
-            lineHeight: 1.4,
+            display: 'flex',
+            flexDirection: 'column',
+            flex: 1,
           }}
         >
-          Tech Entrepreneur & Software Developer
-        </div>
-        <div
-          style={{
-            fontSize: 24,
-            textAlign: 'center',
-            maxWidth: '80%',
-            marginTop: 20,
-            opacity: 0.9,
-          }}
-        >
-          Building products that help people live better lives
+          <div
+            style={{
+              fontSize: 64,
+              fontWeight: 'bold',
+              marginBottom: 20,
+              lineHeight: 1.2,
+            }}
+          >
+            Gleb Shabanov
+          </div>
+          <div
+            style={{
+              fontSize: 28,
+              marginBottom: 20,
+              color: '#4b5563',
+              lineHeight: 1.4,
+            }}
+          >
+            Tech Entrepreneur & Software Developer
+          </div>
+          <div
+            style={{
+              fontSize: 20,
+              color: '#6b7280',
+              lineHeight: 1.5,
+            }}
+          >
+            Building products that help people live better lives
+          </div>
+          <div
+            style={{
+              fontSize: 18,
+              marginTop: 30,
+              color: '#6b7280',
+              display: 'flex',
+              gap: '20px',
+            }}
+          >
+            <span>Go</span>
+            <span>•</span>
+            <span>React</span>
+            <span>•</span>
+            <span>Ruby on Rails</span>
+          </div>
         </div>
       </div>
     ),

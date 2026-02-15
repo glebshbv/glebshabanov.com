@@ -4,7 +4,7 @@ export default function AboutSection() {
   return (
     <article className="flex flex-col w-full gap-2">
         <header>
-          <h2 className="text-2xl font-bold">About Gleb Shabanov</h2>
+          <h2 className="text-2xl font-bold">About Me</h2>
         </header>
         <div className="prose prose-neutral max-w-none">
         <p className="text-md">
