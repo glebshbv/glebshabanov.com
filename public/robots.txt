@@ -1,0 +1,17 @@
+User-agent: *
+Allow: /
+Disallow: /api/
+Disallow: /_next/
+Disallow: /studio/
+
+# Allow search engines to crawl images and static assets
+Allow: /images/
+Allow: /_next/static/
+Allow: /favicon.ico
+Allow: /gleb.JPG
+
+# Sitemap location
+Sitemap: https://glebshabanov.com/sitemap.xml
+
+# Crawl delay (optional - remove if not needed)
+Crawl-delay: 1
